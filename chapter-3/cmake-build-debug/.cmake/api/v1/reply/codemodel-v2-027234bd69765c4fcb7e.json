@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter_3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bondini::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bondini-Debug-5169176e7913ce77b028.json",
+					"name" : "bondini",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter_3-Debug-81b5c1ce3c62a43be89d.json",
+					"name" : "chapter_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chartype::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chartype-Debug-b021b758070c04411a4a.json",
+					"name" : "chartype",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exceed::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exceed-Debug-b516602d0e68f2d4cf35.json",
+					"name" : "exceed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexoct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexoct-Debug-fda4300a782e5dadf8ef.json",
+					"name" : "hexoct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hexoct2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hexoct2-Debug-962626c4a8901424b944.json",
+					"name" : "hexoct2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "limits::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-limits-Debug-3faf39dd71bb15fbd4a1.json",
+					"name" : "limits",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "morechar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-morechar-Debug-01fa3ba6bd7a803d8665.json",
+					"name" : "morechar",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-3/cmake-build-debug",
+		"source" : "C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

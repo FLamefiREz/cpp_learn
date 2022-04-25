@@ -1,0 +1,17 @@
+# ninja log v5
+2	675	6724855358990951	CMakeFiles/chapter_2.dir/main.cpp.obj	d300517849cddd9b
+678	963	6724855361803789	chapter_2.exe	47f5ee41cd465f00
+1	693	6724875996191852	CMakeFiles/carrot.dir/2.2/carrot.cpp.obj	c54042ba03891700
+2	634	6724858114777479	CMakeFiles/myfirst.dir/2.1/myfirst/myfirst.cpp.obj	eb2f5a58594d3b84
+1	669	6724859475727280	CMakeFiles/getinfo.dir/2.2/getinfo/getinfo.cpp.obj	6575bdad5b057d94
+635	874	6724858117123819	myfirst.exe	d0af54460ea9eae5
+815	1079	6724867782043447	sqrt.exe	a64706d2b1e073e5
+1	814	6724867779543268	CMakeFiles/sqrt.dir/2.4/sqrt/sqrt.cpp.obj	97bbacf0ba9e278c
+670	903	6724859477915090	getinfo.exe	88818930501382d2
+16	686	6724875996161843	CMakeFiles/carrot.dir/2.5/outfunc.cpp.obj	da3cdd5fd4a386f0
+3	613	6724878605298752	CMakeFiles/outfunc.dir/2.5/outfunc.cpp.obj	767a5fb5b4519784
+614	851	6724878607642853	outfunc.exe	c9172be321796a98
+1	667	6724883588343335	CMakeFiles/convert.dir/2.4/convert.cpp.obj	5381886ce8d66343
+668	905	6724883590687113	convert.exe	5f08ee95007ba2c6
+4	607	6724884910449248	CMakeFiles/convert.dir/2.4/convert.cpp.obj	5381886ce8d66343
+608	857	6724884912793159	convert.exe	5f08ee95007ba2c6

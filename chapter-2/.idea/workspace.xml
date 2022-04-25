@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="chapter_2" targetName="carrot" />
+      <config projectName="chapter_2" targetName="getinfo" />
+      <config projectName="chapter_2" targetName="outfunc" />
+      <config projectName="chapter_2" targetName="myfirst" />
+      <config projectName="chapter_2" targetName="chapter_2" />
+      <config projectName="chapter_2" targetName="sqrt" />
+      <config projectName="chapter_2" targetName="convert" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a675afd-2348-421f-835d-b987b29a2703" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../LeetCode/testDemo/testdemo_for_listNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../python/testdemo/demo_for_pic_cut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../trainWork/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../trainWork/network/UNet_tf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../trainWork/network/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../trainWork/square_image.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3.4" />
+  </component>
+  <component name="ProjectId" id="28E4Mcl9XM03pEwV7L4u53eXYGd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zhongshunmin\Desktop\project\c++\cpp_learn\chapter-2\2.4" />
+      <recent name="C:\Users\zhongshunmin\Desktop\project\c++\cpp_learn\chapter-2\2.1" />
+      <recent name="C:\Users\zhongshunmin\Desktop\project\c++\cpp_learn\chapter-2\2.2" />
+      <recent name="C:\Users\zhongshunmin\Desktop\project\c++\cpp_learn\chapter-2\2.3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake 应用程序.convert">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="carrot" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="chapter_2" TARGET_NAME="carrot" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="chapter_2" RUN_TARGET_NAME="carrot">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chapter_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="chapter_2" TARGET_NAME="chapter_2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="chapter_2" RUN_TARGET_NAME="chapter_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="convert" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="chapter_2" TARGET_NAME="convert" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="chapter_2" RUN_TARGET_NAME="convert">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getinfo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="chapter_2" TARGET_NAME="getinfo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="chapter_2" RUN_TARGET_NAME="getinfo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myfirst" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="chapter_2" TARGET_NAME="myfirst" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="chapter_2" RUN_TARGET_NAME="myfirst">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="outfunc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="chapter_2" TARGET_NAME="outfunc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="chapter_2" RUN_TARGET_NAME="outfunc">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sqrt" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="chapter_2" TARGET_NAME="sqrt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="chapter_2" RUN_TARGET_NAME="sqrt">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.carrot" />
+      <item itemvalue="CMake 应用程序.chapter_2" />
+      <item itemvalue="CMake 应用程序.convert" />
+      <item itemvalue="CMake 应用程序.getinfo" />
+      <item itemvalue="CMake 应用程序.myfirst" />
+      <item itemvalue="CMake 应用程序.outfunc" />
+      <item itemvalue="CMake 应用程序.sqrt" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="4a675afd-2348-421f-835d-b987b29a2703" name="变更" comment="" />
+      <created>1650768363850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650768363850</updated>
+      <workItem from="1650768365772" duration="110000" />
+      <workItem from="1650782313635" duration="3567000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

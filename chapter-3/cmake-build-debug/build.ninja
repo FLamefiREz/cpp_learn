@@ -74,6 +74,39 @@ build morechar.exe: CXX_EXECUTABLE_LINKER__morechar_Debug CMakeFiles/morechar.di
   TARGET_PDB = morechar.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target assign
+
+
+#############################################
+# Order-only phony target for assign
+
+build cmake_object_order_depends_target_assign: phony || CMakeFiles/assign.dir
+
+build CMakeFiles/assign.dir/3.4/assign.cpp.obj: CXX_COMPILER__assign_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-3/3.4/assign.cpp || cmake_object_order_depends_target_assign
+  DEP_FILE = CMakeFiles\assign.dir\3.4\assign.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\assign.dir
+  OBJECT_FILE_DIR = CMakeFiles\assign.dir\3.4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assign
+
+
+#############################################
+# Link the executable assign.exe
+
+build assign.exe: CXX_EXECUTABLE_LINKER__assign_Debug CMakeFiles/assign.dir/3.4/assign.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\assign.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = assign.exe
+  TARGET_IMPLIB = libassign.dll.a
+  TARGET_PDB = assign.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target chapter_3
 
 
@@ -272,6 +305,39 @@ build bondini.exe: CXX_EXECUTABLE_LINKER__bondini_Debug CMakeFiles/bondini.dir/3
   TARGET_PDB = bondini.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target typecast
+
+
+#############################################
+# Order-only phony target for typecast
+
+build cmake_object_order_depends_target_typecast: phony || CMakeFiles/typecast.dir
+
+build CMakeFiles/typecast.dir/3.4/typecast.cpp.obj: CXX_COMPILER__typecast_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-3/3.4/typecast.cpp || cmake_object_order_depends_target_typecast
+  DEP_FILE = CMakeFiles\typecast.dir\3.4\typecast.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\typecast.dir
+  OBJECT_FILE_DIR = CMakeFiles\typecast.dir\3.4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target typecast
+
+
+#############################################
+# Link the executable typecast.exe
+
+build typecast.exe: CXX_EXECUTABLE_LINKER__typecast_Debug CMakeFiles/typecast.dir/3.4/typecast.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\typecast.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = typecast.exe
+  TARGET_IMPLIB = libtypecast.dll.a
+  TARGET_PDB = typecast.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target hexoct2
 
 
@@ -304,6 +370,171 @@ build hexoct2.exe: CXX_EXECUTABLE_LINKER__hexoct2_Debug CMakeFiles/hexoct2.dir/3
   TARGET_IMPLIB = libhexoct2.dll.a
   TARGET_PDB = hexoct2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target floatnum
+
+
+#############################################
+# Order-only phony target for floatnum
+
+build cmake_object_order_depends_target_floatnum: phony || CMakeFiles/floatnum.dir
+
+build CMakeFiles/floatnum.dir/3.3/floatnum.cpp.obj: CXX_COMPILER__floatnum_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-3/3.3/floatnum.cpp || cmake_object_order_depends_target_floatnum
+  DEP_FILE = CMakeFiles\floatnum.dir\3.3\floatnum.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\floatnum.dir
+  OBJECT_FILE_DIR = CMakeFiles\floatnum.dir\3.3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target floatnum
+
+
+#############################################
+# Link the executable floatnum.exe
+
+build floatnum.exe: CXX_EXECUTABLE_LINKER__floatnum_Debug CMakeFiles/floatnum.dir/3.3/floatnum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\floatnum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = floatnum.exe
+  TARGET_IMPLIB = libfloatnum.dll.a
+  TARGET_PDB = floatnum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target fltadd
+
+
+#############################################
+# Order-only phony target for fltadd
+
+build cmake_object_order_depends_target_fltadd: phony || CMakeFiles/fltadd.dir
+
+build CMakeFiles/fltadd.dir/3.3/fltadd.cpp.obj: CXX_COMPILER__fltadd_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-3/3.3/fltadd.cpp || cmake_object_order_depends_target_fltadd
+  DEP_FILE = CMakeFiles\fltadd.dir\3.3\fltadd.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\fltadd.dir
+  OBJECT_FILE_DIR = CMakeFiles\fltadd.dir\3.3
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target fltadd
+
+
+#############################################
+# Link the executable fltadd.exe
+
+build fltadd.exe: CXX_EXECUTABLE_LINKER__fltadd_Debug CMakeFiles/fltadd.dir/3.3/fltadd.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\fltadd.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = fltadd.exe
+  TARGET_IMPLIB = libfltadd.dll.a
+  TARGET_PDB = fltadd.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arith
+
+
+#############################################
+# Order-only phony target for arith
+
+build cmake_object_order_depends_target_arith: phony || CMakeFiles/arith.dir
+
+build CMakeFiles/arith.dir/3.4/arith.cpp.obj: CXX_COMPILER__arith_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-3/3.4/arith.cpp || cmake_object_order_depends_target_arith
+  DEP_FILE = CMakeFiles\arith.dir\3.4\arith.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\arith.dir
+  OBJECT_FILE_DIR = CMakeFiles\arith.dir\3.4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arith
+
+
+#############################################
+# Link the executable arith.exe
+
+build arith.exe: CXX_EXECUTABLE_LINKER__arith_Debug CMakeFiles/arith.dir/3.4/arith.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\arith.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = arith.exe
+  TARGET_IMPLIB = libarith.dll.a
+  TARGET_PDB = arith.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target divide
+
+
+#############################################
+# Order-only phony target for divide
+
+build cmake_object_order_depends_target_divide: phony || CMakeFiles/divide.dir
+
+build CMakeFiles/divide.dir/3.4/divide.cpp.obj: CXX_COMPILER__divide_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-3/3.4/divide.cpp || cmake_object_order_depends_target_divide
+  DEP_FILE = CMakeFiles\divide.dir\3.4\divide.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\divide.dir
+  OBJECT_FILE_DIR = CMakeFiles\divide.dir\3.4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target divide
+
+
+#############################################
+# Link the executable divide.exe
+
+build divide.exe: CXX_EXECUTABLE_LINKER__divide_Debug CMakeFiles/divide.dir/3.4/divide.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\divide.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = divide.exe
+  TARGET_IMPLIB = libdivide.dll.a
+  TARGET_PDB = divide.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target modulus
+
+
+#############################################
+# Order-only phony target for modulus
+
+build cmake_object_order_depends_target_modulus: phony || CMakeFiles/modulus.dir
+
+build CMakeFiles/modulus.dir/3.4/modulus.cpp.obj: CXX_COMPILER__modulus_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-3/3.4/modulus.cpp || cmake_object_order_depends_target_modulus
+  DEP_FILE = CMakeFiles\modulus.dir\3.4\modulus.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\modulus.dir
+  OBJECT_FILE_DIR = CMakeFiles\modulus.dir\3.4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target modulus
+
+
+#############################################
+# Link the executable modulus.exe
+
+build modulus.exe: CXX_EXECUTABLE_LINKER__modulus_Debug CMakeFiles/modulus.dir/3.4/modulus.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\modulus.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = modulus.exe
+  TARGET_IMPLIB = libmodulus.dll.a
+  TARGET_PDB = modulus.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -330,13 +561,23 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build arith: phony arith.exe
+
+build assign: phony assign.exe
+
 build bondini: phony bondini.exe
 
 build chapter_3: phony chapter_3.exe
 
 build chartype: phony chartype.exe
 
+build divide: phony divide.exe
+
 build exceed: phony exceed.exe
+
+build floatnum: phony floatnum.exe
+
+build fltadd: phony fltadd.exe
 
 build hexoct: phony hexoct.exe
 
@@ -344,7 +585,11 @@ build hexoct2: phony hexoct2.exe
 
 build limits: phony limits.exe
 
+build modulus: phony modulus.exe
+
 build morechar: phony morechar.exe
+
+build typecast: phony typecast.exe
 
 # =============================================================================
 # Folder targets.
@@ -354,7 +599,7 @@ build morechar: phony morechar.exe
 #############################################
 # Folder: C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-3/cmake-build-debug
 
-build all: phony morechar.exe chapter_3.exe chartype.exe exceed.exe limits.exe hexoct.exe bondini.exe hexoct2.exe
+build all: phony morechar.exe assign.exe chapter_3.exe chartype.exe exceed.exe limits.exe hexoct.exe bondini.exe typecast.exe hexoct2.exe floatnum.exe fltadd.exe arith.exe divide.exe modulus.exe
 
 # =============================================================================
 # Built-in targets

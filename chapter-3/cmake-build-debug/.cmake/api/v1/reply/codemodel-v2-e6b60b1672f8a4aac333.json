@@ -22,7 +22,14 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
 					]
 				}
 			],
@@ -44,12 +51,33 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arith::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arith-Debug-1e4d9ca47a2615ed7088.json",
+					"name" : "arith",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "assign::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assign-Debug-685cbab0cdec9651bc29.json",
+					"name" : "assign",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "bondini::@6890427a1f51a3e7e1df",
@@ -73,9 +101,30 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "divide::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-divide-Debug-06bbf0c3bbd06c53565c.json",
+					"name" : "divide",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "exceed::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-exceed-Debug-b516602d0e68f2d4cf35.json",
 					"name" : "exceed",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "floatnum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-floatnum-Debug-de5aaa564180999d5a67.json",
+					"name" : "floatnum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fltadd::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fltadd-Debug-f7c40c9af0243f84f041.json",
+					"name" : "fltadd",
 					"projectIndex" : 0
 				},
 				{
@@ -101,9 +150,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "modulus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-modulus-Debug-23ad0e982ae95d81dbb8.json",
+					"name" : "modulus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "morechar::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-morechar-Debug-01fa3ba6bd7a803d8665.json",
 					"name" : "morechar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "typecast::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-typecast-Debug-077164fd7b87c361060a.json",
+					"name" : "typecast",
 					"projectIndex" : 0
 				}
 			]

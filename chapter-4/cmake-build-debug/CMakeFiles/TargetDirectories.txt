@@ -1,0 +1,4 @@
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/chapter_4.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/arrayone.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

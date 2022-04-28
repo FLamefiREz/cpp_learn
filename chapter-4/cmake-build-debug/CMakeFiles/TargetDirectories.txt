@@ -1,4 +1,16 @@
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/instr2.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/chapter_4.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/instr3.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/arrayone.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/strtype.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/instr1.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/string.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/numstr.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/strtype2.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/strtype3.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/strtype4.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/structur.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/assgn_st.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/arrstruc.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

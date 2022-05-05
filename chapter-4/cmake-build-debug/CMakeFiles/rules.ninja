@@ -71,6 +71,25 @@ rule CXX_EXECUTABLE_LINKER__instr3_Debug
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__mixtypes_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__mixtypes_Debug
+  command = cmd.exe /C "$PRE_LINK && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__arrayone_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -139,6 +158,44 @@ rule CXX_COMPILER__string_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__string_Debug
+  command = cmd.exe /C "$PRE_LINK && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__delete_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__delete_Debug
+  command = cmd.exe /C "$PRE_LINK && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__pointer_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__pointer_Debug
   command = cmd.exe /C "$PRE_LINK && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -242,6 +299,25 @@ rule CXX_EXECUTABLE_LINKER__structur_Debug
 #############################################
 # Rule for compiling CXX files.
 
+rule CXX_COMPILER__newstrct_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__newstrct_Debug
+  command = cmd.exe /C "$PRE_LINK && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
 rule CXX_COMPILER__assgn_st_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -253,6 +329,25 @@ rule CXX_COMPILER__assgn_st_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__assgn_st_Debug
+  command = cmd.exe /C "$PRE_LINK && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__int_ptr_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__int_ptr_Debug
   command = cmd.exe /C "$PRE_LINK && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -278,11 +373,125 @@ rule CXX_EXECUTABLE_LINKER__arrstruc_Debug
 
 
 #############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__address_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__address_Debug
+  command = cmd.exe /C "$PRE_LINK && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
 # Rule for running custom commands.
 
 rule CUSTOM_COMMAND
   command = $COMMAND
   description = $DESC
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__use_new_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__use_new_Debug
+  command = cmd.exe /C "$PRE_LINK && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__arraynew_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__arraynew_Debug
+  command = cmd.exe /C "$PRE_LINK && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__addpntrs_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__addpntrs_Debug
+  command = cmd.exe /C "$PRE_LINK && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__ptrstr_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__ptrstr_Debug
+  command = cmd.exe /C "$PRE_LINK && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__choices_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__choices_Debug
+  command = cmd.exe /C "$PRE_LINK && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
 
 
 #############################################

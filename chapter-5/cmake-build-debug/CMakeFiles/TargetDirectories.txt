@@ -1,0 +1,8 @@
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug/CMakeFiles/forloop.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug/CMakeFiles/chapter_5.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug/CMakeFiles/num_test.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug/CMakeFiles/express.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug/CMakeFiles/formore.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug/CMakeFiles/bigstep.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug/CMakeFiles/rebuild_cache.dir

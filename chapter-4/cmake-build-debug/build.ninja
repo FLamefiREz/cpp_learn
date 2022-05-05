@@ -140,6 +140,39 @@ build instr3.exe: CXX_EXECUTABLE_LINKER__instr3_Debug CMakeFiles/instr3.dir/4.2/
   TARGET_PDB = instr3.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target mixtypes
+
+
+#############################################
+# Order-only phony target for mixtypes
+
+build cmake_object_order_depends_target_mixtypes: phony || CMakeFiles/mixtypes.dir
+
+build CMakeFiles/mixtypes.dir/4.9/mixtypes.cpp.obj: CXX_COMPILER__mixtypes_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/4.9/mixtypes.cpp || cmake_object_order_depends_target_mixtypes
+  DEP_FILE = CMakeFiles\mixtypes.dir\4.9\mixtypes.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\mixtypes.dir
+  OBJECT_FILE_DIR = CMakeFiles\mixtypes.dir\4.9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mixtypes
+
+
+#############################################
+# Link the executable mixtypes.exe
+
+build mixtypes.exe: CXX_EXECUTABLE_LINKER__mixtypes_Debug CMakeFiles/mixtypes.dir/4.9/mixtypes.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\mixtypes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = mixtypes.exe
+  TARGET_IMPLIB = libmixtypes.dll.a
+  TARGET_PDB = mixtypes.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target arrayone
 
 
@@ -270,6 +303,72 @@ build string.exe: CXX_EXECUTABLE_LINKER__string_Debug CMakeFiles/string.dir/4.2/
   TARGET_FILE = string.exe
   TARGET_IMPLIB = libstring.dll.a
   TARGET_PDB = string.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target delete
+
+
+#############################################
+# Order-only phony target for delete
+
+build cmake_object_order_depends_target_delete: phony || CMakeFiles/delete.dir
+
+build CMakeFiles/delete.dir/4.8/delete.cpp.obj: CXX_COMPILER__delete_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/4.8/delete.cpp || cmake_object_order_depends_target_delete
+  DEP_FILE = CMakeFiles\delete.dir\4.8\delete.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\delete.dir
+  OBJECT_FILE_DIR = CMakeFiles\delete.dir\4.8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target delete
+
+
+#############################################
+# Link the executable delete.exe
+
+build delete.exe: CXX_EXECUTABLE_LINKER__delete_Debug CMakeFiles/delete.dir/4.8/delete.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\delete.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = delete.exe
+  TARGET_IMPLIB = libdelete.dll.a
+  TARGET_PDB = delete.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pointer
+
+
+#############################################
+# Order-only phony target for pointer
+
+build cmake_object_order_depends_target_pointer: phony || CMakeFiles/pointer.dir
+
+build CMakeFiles/pointer.dir/4.7/pointer.cpp.obj: CXX_COMPILER__pointer_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/4.7/pointer.cpp || cmake_object_order_depends_target_pointer
+  DEP_FILE = CMakeFiles\pointer.dir\4.7\pointer.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\pointer.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointer.dir\4.7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointer
+
+
+#############################################
+# Link the executable pointer.exe
+
+build pointer.exe: CXX_EXECUTABLE_LINKER__pointer_Debug CMakeFiles/pointer.dir/4.7/pointer.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointer.exe
+  TARGET_IMPLIB = libpointer.dll.a
+  TARGET_PDB = pointer.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target numstr
@@ -437,6 +536,39 @@ build structur.exe: CXX_EXECUTABLE_LINKER__structur_Debug CMakeFiles/structur.di
   TARGET_PDB = structur.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target newstrct
+
+
+#############################################
+# Order-only phony target for newstrct
+
+build cmake_object_order_depends_target_newstrct: phony || CMakeFiles/newstrct.dir
+
+build CMakeFiles/newstrct.dir/4.8/newstrct.cpp.obj: CXX_COMPILER__newstrct_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/4.8/newstrct.cpp || cmake_object_order_depends_target_newstrct
+  DEP_FILE = CMakeFiles\newstrct.dir\4.8\newstrct.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\newstrct.dir
+  OBJECT_FILE_DIR = CMakeFiles\newstrct.dir\4.8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target newstrct
+
+
+#############################################
+# Link the executable newstrct.exe
+
+build newstrct.exe: CXX_EXECUTABLE_LINKER__newstrct_Debug CMakeFiles/newstrct.dir/4.8/newstrct.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\newstrct.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = newstrct.exe
+  TARGET_IMPLIB = libnewstrct.dll.a
+  TARGET_PDB = newstrct.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target assgn_st
 
 
@@ -468,6 +600,39 @@ build assgn_st.exe: CXX_EXECUTABLE_LINKER__assgn_st_Debug CMakeFiles/assgn_st.di
   TARGET_FILE = assgn_st.exe
   TARGET_IMPLIB = libassgn_st.dll.a
   TARGET_PDB = assgn_st.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target int_ptr
+
+
+#############################################
+# Order-only phony target for int_ptr
+
+build cmake_object_order_depends_target_int_ptr: phony || CMakeFiles/int_ptr.dir
+
+build CMakeFiles/int_ptr.dir/4.7/int_ptr.cpp.obj: CXX_COMPILER__int_ptr_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/4.7/int_ptr.cpp || cmake_object_order_depends_target_int_ptr
+  DEP_FILE = CMakeFiles\int_ptr.dir\4.7\int_ptr.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\int_ptr.dir
+  OBJECT_FILE_DIR = CMakeFiles\int_ptr.dir\4.7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target int_ptr
+
+
+#############################################
+# Link the executable int_ptr.exe
+
+build int_ptr.exe: CXX_EXECUTABLE_LINKER__int_ptr_Debug CMakeFiles/int_ptr.dir/4.7/int_ptr.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\int_ptr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = int_ptr.exe
+  TARGET_IMPLIB = libint_ptr.dll.a
+  TARGET_PDB = int_ptr.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target arrstruc
@@ -502,16 +667,38 @@ build arrstruc.exe: CXX_EXECUTABLE_LINKER__arrstruc_Debug CMakeFiles/arrstruc.di
   TARGET_IMPLIB = libarrstruc.dll.a
   TARGET_PDB = arrstruc.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target address
+
 
 #############################################
-# Utility command for edit_cache
+# Order-only phony target for address
 
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\zhongshunmin\Desktop\project\c++\cpp_learn\chapter-4\cmake-build-debug && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
+build cmake_object_order_depends_target_address: phony || CMakeFiles/address.dir
 
-build edit_cache: phony CMakeFiles/edit_cache.util
+build CMakeFiles/address.dir/4.7/address.cpp.obj: CXX_COMPILER__address_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/4.7/address.cpp || cmake_object_order_depends_target_address
+  DEP_FILE = CMakeFiles\address.dir\4.7\address.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\address.dir
+  OBJECT_FILE_DIR = CMakeFiles\address.dir\4.7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target address
+
+
+#############################################
+# Link the executable address.exe
+
+build address.exe: CXX_EXECUTABLE_LINKER__address_Debug CMakeFiles/address.dir/4.7/address.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\address.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = address.exe
+  TARGET_IMPLIB = libaddress.dll.a
+  TARGET_PDB = address.exe.dbg
 
 
 #############################################
@@ -526,7 +713,189 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target use_new
+
+
+#############################################
+# Order-only phony target for use_new
+
+build cmake_object_order_depends_target_use_new: phony || CMakeFiles/use_new.dir
+
+build CMakeFiles/use_new.dir/4.7/use_new.cpp.obj: CXX_COMPILER__use_new_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/4.7/use_new.cpp || cmake_object_order_depends_target_use_new
+  DEP_FILE = CMakeFiles\use_new.dir\4.7\use_new.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\use_new.dir
+  OBJECT_FILE_DIR = CMakeFiles\use_new.dir\4.7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target use_new
+
+
+#############################################
+# Link the executable use_new.exe
+
+build use_new.exe: CXX_EXECUTABLE_LINKER__use_new_Debug CMakeFiles/use_new.dir/4.7/use_new.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\use_new.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = use_new.exe
+  TARGET_IMPLIB = libuse_new.dll.a
+  TARGET_PDB = use_new.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arraynew
+
+
+#############################################
+# Order-only phony target for arraynew
+
+build cmake_object_order_depends_target_arraynew: phony || CMakeFiles/arraynew.dir
+
+build CMakeFiles/arraynew.dir/4.7/arraynew.cpp.obj: CXX_COMPILER__arraynew_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/4.7/arraynew.cpp || cmake_object_order_depends_target_arraynew
+  DEP_FILE = CMakeFiles\arraynew.dir\4.7\arraynew.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\arraynew.dir
+  OBJECT_FILE_DIR = CMakeFiles\arraynew.dir\4.7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arraynew
+
+
+#############################################
+# Link the executable arraynew.exe
+
+build arraynew.exe: CXX_EXECUTABLE_LINKER__arraynew_Debug CMakeFiles/arraynew.dir/4.7/arraynew.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\arraynew.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = arraynew.exe
+  TARGET_IMPLIB = libarraynew.dll.a
+  TARGET_PDB = arraynew.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target addpntrs
+
+
+#############################################
+# Order-only phony target for addpntrs
+
+build cmake_object_order_depends_target_addpntrs: phony || CMakeFiles/addpntrs.dir
+
+build CMakeFiles/addpntrs.dir/4.8/addpntrs.cpp.obj: CXX_COMPILER__addpntrs_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/4.8/addpntrs.cpp || cmake_object_order_depends_target_addpntrs
+  DEP_FILE = CMakeFiles\addpntrs.dir\4.8\addpntrs.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\addpntrs.dir
+  OBJECT_FILE_DIR = CMakeFiles\addpntrs.dir\4.8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target addpntrs
+
+
+#############################################
+# Link the executable addpntrs.exe
+
+build addpntrs.exe: CXX_EXECUTABLE_LINKER__addpntrs_Debug CMakeFiles/addpntrs.dir/4.8/addpntrs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\addpntrs.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = addpntrs.exe
+  TARGET_IMPLIB = libaddpntrs.dll.a
+  TARGET_PDB = addpntrs.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ptrstr
+
+
+#############################################
+# Order-only phony target for ptrstr
+
+build cmake_object_order_depends_target_ptrstr: phony || CMakeFiles/ptrstr.dir
+
+build CMakeFiles/ptrstr.dir/4.8/ptrstr.cpp.obj: CXX_COMPILER__ptrstr_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/4.8/ptrstr.cpp || cmake_object_order_depends_target_ptrstr
+  DEP_FILE = CMakeFiles\ptrstr.dir\4.8\ptrstr.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\ptrstr.dir
+  OBJECT_FILE_DIR = CMakeFiles\ptrstr.dir\4.8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ptrstr
+
+
+#############################################
+# Link the executable ptrstr.exe
+
+build ptrstr.exe: CXX_EXECUTABLE_LINKER__ptrstr_Debug CMakeFiles/ptrstr.dir/4.8/ptrstr.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ptrstr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ptrstr.exe
+  TARGET_IMPLIB = libptrstr.dll.a
+  TARGET_PDB = ptrstr.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target choices
+
+
+#############################################
+# Order-only phony target for choices
+
+build cmake_object_order_depends_target_choices: phony || CMakeFiles/choices.dir
+
+build CMakeFiles/choices.dir/4.10/choices.cpp.obj: CXX_COMPILER__choices_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/4.10/choices.cpp || cmake_object_order_depends_target_choices
+  DEP_FILE = CMakeFiles\choices.dir\4.10\choices.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\choices.dir
+  OBJECT_FILE_DIR = CMakeFiles\choices.dir\4.10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target choices
+
+
+#############################################
+# Link the executable choices.exe
+
+build choices.exe: CXX_EXECUTABLE_LINKER__choices_Debug CMakeFiles/choices.dir/4.10/choices.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\choices.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = choices.exe
+  TARGET_IMPLIB = libchoices.dll.a
+  TARGET_PDB = choices.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\zhongshunmin\Desktop\project\c++\cpp_learn\chapter-4\cmake-build-debug && "D:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build addpntrs: phony addpntrs.exe
+
+build address: phony address.exe
+
+build arraynew: phony arraynew.exe
 
 build arrayone: phony arrayone.exe
 
@@ -536,13 +905,27 @@ build assgn_st: phony assgn_st.exe
 
 build chapter_4: phony chapter_4.exe
 
+build choices: phony choices.exe
+
+build delete: phony delete.exe
+
 build instr1: phony instr1.exe
 
 build instr2: phony instr2.exe
 
 build instr3: phony instr3.exe
 
+build int_ptr: phony int_ptr.exe
+
+build mixtypes: phony mixtypes.exe
+
+build newstrct: phony newstrct.exe
+
 build numstr: phony numstr.exe
+
+build pointer: phony pointer.exe
+
+build ptrstr: phony ptrstr.exe
 
 build string: phony string.exe
 
@@ -556,6 +939,8 @@ build strtype4: phony strtype4.exe
 
 build structur: phony structur.exe
 
+build use_new: phony use_new.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -564,7 +949,7 @@ build structur: phony structur.exe
 #############################################
 # Folder: C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-4/cmake-build-debug
 
-build all: phony instr2.exe chapter_4.exe instr3.exe arrayone.exe strtype.exe instr1.exe string.exe numstr.exe strtype2.exe strtype3.exe strtype4.exe structur.exe assgn_st.exe arrstruc.exe
+build all: phony instr2.exe chapter_4.exe instr3.exe mixtypes.exe arrayone.exe strtype.exe instr1.exe string.exe delete.exe pointer.exe numstr.exe strtype2.exe strtype3.exe strtype4.exe structur.exe newstrct.exe assgn_st.exe int_ptr.exe arrstruc.exe address.exe use_new.exe arraynew.exe addpntrs.exe ptrstr.exe choices.exe
 
 # =============================================================================
 # Built-in targets

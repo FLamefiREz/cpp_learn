@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter_6",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "and::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-and-Debug-568e5cc712ea6d3b7d8e.json",
+					"name" : "and",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cctype::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cctype-Debug-87a70f50849ecfe51fbf.json",
+					"name" : "cctype",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter_6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter_6-Debug-e71381f489df03fde287.json",
+					"name" : "chapter_6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "condit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-condit-Debug-107c56943fde05f468e0.json",
+					"name" : "condit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "if::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-if-Debug-82dd36a10267fa320417.json",
+					"name" : "if",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ifelse::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ifelse-Debug-3f2982017015c4d68f47.json",
+					"name" : "ifelse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ifelseif::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ifelseif-Debug-488378eeb93a2480c4cc.json",
+					"name" : "ifelseif",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "more_and::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-more_and-Debug-51c8e4df1a0ecc9ba672.json",
+					"name" : "more_and",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "not::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-not-Debug-8879117c052f241fc865.json",
+					"name" : "not",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "or::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-or-Debug-81e2d5e02d13e0ba2567.json",
+					"name" : "or",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "switch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-switch-Debug-625b781b9a4b31e36d46.json",
+					"name" : "switch",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug",
+		"source" : "C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

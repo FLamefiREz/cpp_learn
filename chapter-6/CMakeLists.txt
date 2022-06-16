@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.21)
+project(chapter_6)
+
+set(CMAKE_CXX_STANDARD 23)
+
+add_executable(chapter_6 main.cpp)
+add_executable(if 6.1/if.cpp)
+add_executable(ifelse 6.1/ifelse.cpp)
+add_executable(ifelseif 6.1/ifelseif.cpp)
+add_executable(or 6.2/or.cpp)
+add_executable(and 6.2/and.cpp)
+add_executable(more_and 6.2/more_and.cpp)
+add_executable(not 6.2/not.cpp)
+add_executable(cctype 6.3/cctype.cpp)
+add_executable(condit 6.4/condit.cpp)
+add_executable(switch 6.5/switch.cpp)

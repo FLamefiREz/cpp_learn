@@ -19,4 +19,5 @@ C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug/
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug/CMakeFiles/dowhile.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug/CMakeFiles/textin1.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug/CMakeFiles/textin3.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug/CMakeFiles/nested.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug/CMakeFiles/edit_cache.dir

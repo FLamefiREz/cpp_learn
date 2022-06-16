@@ -712,6 +712,39 @@ build textin3.exe: CXX_EXECUTABLE_LINKER__textin3_Debug CMakeFiles/textin3.dir/5
   TARGET_IMPLIB = libtextin3.dll.a
   TARGET_PDB = textin3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target nested
+
+
+#############################################
+# Order-only phony target for nested
+
+build cmake_object_order_depends_target_nested: phony || CMakeFiles/nested.dir
+
+build CMakeFiles/nested.dir/5.6/nested.cpp.obj: CXX_COMPILER__nested_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/5.6/nested.cpp || cmake_object_order_depends_target_nested
+  DEP_FILE = CMakeFiles\nested.dir\5.6\nested.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\nested.dir
+  OBJECT_FILE_DIR = CMakeFiles\nested.dir\5.6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target nested
+
+
+#############################################
+# Link the executable nested.exe
+
+build nested.exe: CXX_EXECUTABLE_LINKER__nested_Debug CMakeFiles/nested.dir/5.6/nested.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\nested.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = nested.exe
+  TARGET_IMPLIB = libnested.dll.a
+  TARGET_PDB = nested.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -750,6 +783,8 @@ build forstr1: phony forstr1.exe
 
 build forstr2: phony forstr2.exe
 
+build nested: phony nested.exe
+
 build num_test: phony num_test.exe
 
 build plus_one: phony plus_one.exe
@@ -774,7 +809,7 @@ build while: phony while.exe
 #############################################
 # Folder: C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-5/cmake-build-debug
 
-build all: phony plus_one.exe forloop.exe chapter_5.exe num_test.exe textin4.exe express.exe formore.exe bigstep.exe forstr1.exe block.exe forstr2.exe equal.exe compstr1.exe compstr2.exe while.exe waiting.exe textin2.exe dowhile.exe textin1.exe textin3.exe
+build all: phony plus_one.exe forloop.exe chapter_5.exe num_test.exe textin4.exe express.exe formore.exe bigstep.exe forstr1.exe block.exe forstr2.exe equal.exe compstr1.exe compstr2.exe while.exe waiting.exe textin2.exe dowhile.exe textin1.exe textin3.exe nested.exe
 
 # =============================================================================
 # Built-in targets

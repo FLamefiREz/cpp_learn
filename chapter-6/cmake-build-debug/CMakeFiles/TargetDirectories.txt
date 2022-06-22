@@ -7,7 +7,10 @@ C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/ifelseif.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/or.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/not.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/cinfish.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/cctype.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/condit.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/switch.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/enum.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/jump.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/rebuild_cache.dir

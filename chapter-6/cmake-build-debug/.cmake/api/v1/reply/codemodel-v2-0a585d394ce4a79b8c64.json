@@ -25,7 +25,10 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11,
+						12,
+						13
 					]
 				}
 			],
@@ -50,7 +53,10 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11,
+						12,
+						13
 					]
 				}
 			],
@@ -79,9 +85,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "cinfish::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cinfish-Debug-8fca5789bf5009553093.json",
+					"name" : "cinfish",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "condit::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-condit-Debug-107c56943fde05f468e0.json",
 					"name" : "condit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "enum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-enum-Debug-5ef9dcdf652d759a1de1.json",
+					"name" : "enum",
 					"projectIndex" : 0
 				},
 				{
@@ -103,6 +123,13 @@
 					"id" : "ifelseif::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-ifelseif-Debug-488378eeb93a2480c4cc.json",
 					"name" : "ifelseif",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jump::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jump-Debug-57653ff31b0fe670623e.json",
+					"name" : "jump",
 					"projectIndex" : 0
 				},
 				{

@@ -316,6 +316,39 @@ build not.exe: CXX_EXECUTABLE_LINKER__not_Debug CMakeFiles/not.dir/6.2/not.cpp.o
   TARGET_PDB = not.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target cinfish
+
+
+#############################################
+# Order-only phony target for cinfish
+
+build cmake_object_order_depends_target_cinfish: phony || CMakeFiles/cinfish.dir
+
+build CMakeFiles/cinfish.dir/6.7/cinfish.cpp.obj: CXX_COMPILER__cinfish_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/6.7/cinfish.cpp || cmake_object_order_depends_target_cinfish
+  DEP_FILE = CMakeFiles\cinfish.dir\6.7\cinfish.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\cinfish.dir
+  OBJECT_FILE_DIR = CMakeFiles\cinfish.dir\6.7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cinfish
+
+
+#############################################
+# Link the executable cinfish.exe
+
+build cinfish.exe: CXX_EXECUTABLE_LINKER__cinfish_Debug CMakeFiles/cinfish.dir/6.7/cinfish.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\cinfish.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cinfish.exe
+  TARGET_IMPLIB = libcinfish.dll.a
+  TARGET_PDB = cinfish.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target cctype
 
 
@@ -414,6 +447,72 @@ build switch.exe: CXX_EXECUTABLE_LINKER__switch_Debug CMakeFiles/switch.dir/6.5/
   TARGET_IMPLIB = libswitch.dll.a
   TARGET_PDB = switch.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target enum
+
+
+#############################################
+# Order-only phony target for enum
+
+build cmake_object_order_depends_target_enum: phony || CMakeFiles/enum.dir
+
+build CMakeFiles/enum.dir/6.5/enum.cpp.obj: CXX_COMPILER__enum_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/6.5/enum.cpp || cmake_object_order_depends_target_enum
+  DEP_FILE = CMakeFiles\enum.dir\6.5\enum.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\enum.dir
+  OBJECT_FILE_DIR = CMakeFiles\enum.dir\6.5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target enum
+
+
+#############################################
+# Link the executable enum.exe
+
+build enum.exe: CXX_EXECUTABLE_LINKER__enum_Debug CMakeFiles/enum.dir/6.5/enum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\enum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = enum.exe
+  TARGET_IMPLIB = libenum.dll.a
+  TARGET_PDB = enum.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target jump
+
+
+#############################################
+# Order-only phony target for jump
+
+build cmake_object_order_depends_target_jump: phony || CMakeFiles/jump.dir
+
+build CMakeFiles/jump.dir/6.6/jump.cpp.obj: CXX_COMPILER__jump_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/6.6/jump.cpp || cmake_object_order_depends_target_jump
+  DEP_FILE = CMakeFiles\jump.dir\6.6\jump.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\jump.dir
+  OBJECT_FILE_DIR = CMakeFiles\jump.dir\6.6
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target jump
+
+
+#############################################
+# Link the executable jump.exe
+
+build jump.exe: CXX_EXECUTABLE_LINKER__jump_Debug CMakeFiles/jump.dir/6.6/jump.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\jump.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = jump.exe
+  TARGET_IMPLIB = libjump.dll.a
+  TARGET_PDB = jump.exe.dbg
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -435,13 +534,19 @@ build cctype: phony cctype.exe
 
 build chapter_6: phony chapter_6.exe
 
+build cinfish: phony cinfish.exe
+
 build condit: phony condit.exe
+
+build enum: phony enum.exe
 
 build if: phony if.exe
 
 build ifelse: phony ifelse.exe
 
 build ifelseif: phony ifelseif.exe
+
+build jump: phony jump.exe
 
 build more_and: phony more_and.exe
 
@@ -459,7 +564,7 @@ build switch: phony switch.exe
 #############################################
 # Folder: C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug
 
-build all: phony ifelse.exe chapter_6.exe more_and.exe and.exe if.exe ifelseif.exe or.exe not.exe cctype.exe condit.exe switch.exe
+build all: phony ifelse.exe chapter_6.exe more_and.exe and.exe if.exe ifelseif.exe or.exe not.exe cinfish.exe cctype.exe condit.exe switch.exe enum.exe jump.exe
 
 # =============================================================================
 # Built-in targets

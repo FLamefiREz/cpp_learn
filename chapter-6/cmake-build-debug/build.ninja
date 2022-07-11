@@ -415,6 +415,39 @@ build condit.exe: CXX_EXECUTABLE_LINKER__condit_Debug CMakeFiles/condit.dir/6.4/
   TARGET_PDB = condit.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target cingolf
+
+
+#############################################
+# Order-only phony target for cingolf
+
+build cmake_object_order_depends_target_cingolf: phony || CMakeFiles/cingolf.dir
+
+build CMakeFiles/cingolf.dir/6.7/cingolf.cpp.obj: CXX_COMPILER__cingolf_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/6.7/cingolf.cpp || cmake_object_order_depends_target_cingolf
+  DEP_FILE = CMakeFiles\cingolf.dir\6.7\cingolf.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\cingolf.dir
+  OBJECT_FILE_DIR = CMakeFiles\cingolf.dir\6.7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cingolf
+
+
+#############################################
+# Link the executable cingolf.exe
+
+build cingolf.exe: CXX_EXECUTABLE_LINKER__cingolf_Debug CMakeFiles/cingolf.dir/6.7/cingolf.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\cingolf.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = cingolf.exe
+  TARGET_IMPLIB = libcingolf.dll.a
+  TARGET_PDB = cingolf.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target switch
 
 
@@ -536,6 +569,8 @@ build chapter_6: phony chapter_6.exe
 
 build cinfish: phony cinfish.exe
 
+build cingolf: phony cingolf.exe
+
 build condit: phony condit.exe
 
 build enum: phony enum.exe
@@ -564,7 +599,7 @@ build switch: phony switch.exe
 #############################################
 # Folder: C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug
 
-build all: phony ifelse.exe chapter_6.exe more_and.exe and.exe if.exe ifelseif.exe or.exe not.exe cinfish.exe cctype.exe condit.exe switch.exe enum.exe jump.exe
+build all: phony ifelse.exe chapter_6.exe more_and.exe and.exe if.exe ifelseif.exe or.exe not.exe cinfish.exe cctype.exe condit.exe cingolf.exe switch.exe enum.exe jump.exe
 
 # =============================================================================
 # Built-in targets

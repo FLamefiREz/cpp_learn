@@ -546,6 +546,72 @@ build jump.exe: CXX_EXECUTABLE_LINKER__jump_Debug CMakeFiles/jump.dir/6.6/jump.c
   TARGET_IMPLIB = libjump.dll.a
   TARGET_PDB = jump.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target outfile
+
+
+#############################################
+# Order-only phony target for outfile
+
+build cmake_object_order_depends_target_outfile: phony || CMakeFiles/outfile.dir
+
+build CMakeFiles/outfile.dir/6.8/outfile.cpp.obj: CXX_COMPILER__outfile_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/6.8/outfile.cpp || cmake_object_order_depends_target_outfile
+  DEP_FILE = CMakeFiles\outfile.dir\6.8\outfile.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\outfile.dir
+  OBJECT_FILE_DIR = CMakeFiles\outfile.dir\6.8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target outfile
+
+
+#############################################
+# Link the executable outfile.exe
+
+build outfile.exe: CXX_EXECUTABLE_LINKER__outfile_Debug CMakeFiles/outfile.dir/6.8/outfile.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\outfile.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = outfile.exe
+  TARGET_IMPLIB = liboutfile.dll.a
+  TARGET_PDB = outfile.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target sumafile
+
+
+#############################################
+# Order-only phony target for sumafile
+
+build cmake_object_order_depends_target_sumafile: phony || CMakeFiles/sumafile.dir
+
+build CMakeFiles/sumafile.dir/6.8/sumafile.cpp.obj: CXX_COMPILER__sumafile_Debug C$:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/6.8/sumafile.cpp || cmake_object_order_depends_target_sumafile
+  DEP_FILE = CMakeFiles\sumafile.dir\6.8\sumafile.cpp.obj.d
+  FLAGS = -g -std=gnu++23
+  OBJECT_DIR = CMakeFiles\sumafile.dir
+  OBJECT_FILE_DIR = CMakeFiles\sumafile.dir\6.8
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sumafile
+
+
+#############################################
+# Link the executable sumafile.exe
+
+build sumafile.exe: CXX_EXECUTABLE_LINKER__sumafile_Debug CMakeFiles/sumafile.dir/6.8/sumafile.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\sumafile.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = sumafile.exe
+  TARGET_IMPLIB = libsumafile.dll.a
+  TARGET_PDB = sumafile.exe.dbg
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -589,6 +655,10 @@ build not: phony not.exe
 
 build or: phony or.exe
 
+build outfile: phony outfile.exe
+
+build sumafile: phony sumafile.exe
+
 build switch: phony switch.exe
 
 # =============================================================================
@@ -599,7 +669,7 @@ build switch: phony switch.exe
 #############################################
 # Folder: C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug
 
-build all: phony ifelse.exe chapter_6.exe more_and.exe and.exe if.exe ifelseif.exe or.exe not.exe cinfish.exe cctype.exe condit.exe cingolf.exe switch.exe enum.exe jump.exe
+build all: phony ifelse.exe chapter_6.exe more_and.exe and.exe if.exe ifelseif.exe or.exe not.exe cinfish.exe cctype.exe condit.exe cingolf.exe switch.exe enum.exe jump.exe outfile.exe sumafile.exe
 
 # =============================================================================
 # Built-in targets

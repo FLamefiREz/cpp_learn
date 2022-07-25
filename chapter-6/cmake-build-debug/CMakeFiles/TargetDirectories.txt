@@ -14,4 +14,6 @@ C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/switch.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/enum.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/jump.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/outfile.dir
+C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/sumafile.dir
 C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-6/cmake-build-debug/CMakeFiles/rebuild_cache.dir

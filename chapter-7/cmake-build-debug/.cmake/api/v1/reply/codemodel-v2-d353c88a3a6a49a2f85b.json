@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chapter_7",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "calling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calling-Debug-526607e076494f5b90a9.json",
+					"name" : "calling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "chapter_7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chapter_7-Debug-9717c76b2813063bd491.json",
+					"name" : "chapter_7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "protos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-protos-Debug-c8734529b91f05f06a86.json",
+					"name" : "protos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "twoarg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-twoarg-Debug-204b5d49ab170b15145d.json",
+					"name" : "twoarg",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-7/cmake-build-debug",
+		"source" : "C:/Users/zhongshunmin/Desktop/project/c++/cpp_learn/chapter-7"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

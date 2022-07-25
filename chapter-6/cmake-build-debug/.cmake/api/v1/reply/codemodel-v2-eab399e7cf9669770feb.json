@@ -29,7 +29,9 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15,
+						16
 					]
 				}
 			],
@@ -58,7 +60,9 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15,
+						16
 					]
 				}
 			],
@@ -160,6 +164,20 @@
 					"id" : "or::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-or-Debug-81e2d5e02d13e0ba2567.json",
 					"name" : "or",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "outfile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-outfile-Debug-33aa19466223b484b119.json",
+					"name" : "outfile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sumafile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sumafile-Debug-509a55ef1ddd34884b7f.json",
+					"name" : "sumafile",
 					"projectIndex" : 0
 				},
 				{

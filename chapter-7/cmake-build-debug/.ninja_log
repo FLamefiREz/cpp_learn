@@ -1,0 +1,7 @@
+# ninja log v5
+1	813	6804369632659019	CMakeFiles/calling.dir/7.1/calling.cpp.obj	5f7768a54f31229e
+817	985	6804369634381896	calling.exe	7bbb02c9100707cb
+1	573	6804393960697186	CMakeFiles/protos.dir/7.1/protos.cpp.obj	33774ad261921afd
+574	724	6804393962111421	protos.exe	21b6fd7cadcf8d64
+1	729	6804421363064121	CMakeFiles/twoarg.dir/7.2/twoarg.cpp.obj	ceca60f8deae5fb0
+730	894	6804421364630785	twoarg.exe	10f637ed1028f3b1
